@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccountList Application</title>
+
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Account List</h1>
+
+        <form action="" id="form-account">
+
+            <div class="info">Başarılı</div>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="u-full-width">
+            </div>
+
+            <div>
+                <input type="submit" class="button-primary u-full-width save-edit" value="save">
+            </div>
+
+        </form>
+
+
+        <hr>
+
+        <table class="u-full-width">
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+                    <th>Update & Delete</th> 
+                </tr>
+            </thead>
+
+            <tbody id="accountlist">
+                <!-- <tr>
+                    <td>Enes</td>
+                    <td>ÖZÜDOĞRU</td>
+                    <td>baynarkozcuu@gmail.com</td>
+                    <td>
+                        <button class="btn btn--edit"><i class="far fa-edit"></i></i></button>
+                        <button class="btn btn--delete"><i class="far fa-trash-alt"></i></button>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Enes</td>
+                    <td>ÖZÜDOĞRU</td>
+                    <td>baynarkozcuu@gmail.com</td>
+                    <td>
+                        <button class="btn btn--edit"><i class="far fa-edit"></i></i></button>
+                        <button class="btn btn--delete"><i class="far fa-trash-alt"></i></button>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Enes</td>
+                    <td>ÖZÜDOĞRU</td>
+                    <td>baynarkozcuu@gmail.com</td>
+                    <td>
+                        <button class="btn btn--edit"><i class="far fa-edit"></i></i></button>
+                        <button class="btn btn--delete"><i class="far fa-trash-alt"></i></button>
+                        
+                    </td>
+                </tr> -->
+            </tbody>
+
+
+
+        </table>
+    </div>
+    
+
+    <script src="app2.js"></script>
+</body>
+</html>
